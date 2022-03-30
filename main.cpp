@@ -10,8 +10,8 @@ for (i=0; i<10; i++)
   if (a[i] > max) { max=a[i];}
   for (i=0; i<10; i++)
   if (a[i] < min) { min=a[i];}
-  
-  cout<<"\nМаксимальне значення = " << max <<endl;
+   cout<<"====================================="<<endl;
+  cout<<"\nМаксимальне значення = " << max "<<endl;"
   cout<<"Мінімальне значення = " << min <<endl;
  
   system ("pause>>void"); 
