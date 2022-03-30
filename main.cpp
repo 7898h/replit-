@@ -11,10 +11,9 @@ for (i=0; i<10; i++)
   for (i=0; i<10; i++)
   if (a[i] < min) { min=a[i];}
   
-  L=(min+max)/2;
   cout<<"\nМаксимальне значення = " << max <<endl;
   cout<<"Мінімальне значення = " << min <<endl;
-  cout<<"Cереднє значення = " << L <<endl;
+ 
   system ("pause>>void"); 
   return 0; 
 } 
